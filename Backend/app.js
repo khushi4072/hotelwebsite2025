@@ -8,7 +8,6 @@ const Reserv =require('./Reservation')
 const cors=require('cors');
 app.use(cors())
 
-const port = 3000
 
 app.use(express.json())
 
